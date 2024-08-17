@@ -124,6 +124,7 @@ class CurrencyInputFormatter extends TextInputFormatter {
     _widgetsBinding?.addPostFrameCallback((timeStamp) {
       try {
         if (mantissaLength < 1) {
+          _nextValue = _nextValue.replaceAll(',', '').replaceAll('.', '');
           onValueChange!(int.parse(_nextValue));
         } else {
           onValueChange!(double.parse(_nextValue));

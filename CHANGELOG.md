@@ -1,3 +1,12 @@
+## [2.13.10] 
+- Revert this change because it broke the formatting https://github.com/caseyryan/flutter_multi_formatter/issues/177
+## [2.13.9]
+- Merged https://github.com/caseyryan/flutter_multi_formatter/pull/176 added finland phone mask
+## [2.13.8]
+- Merged https://github.com/caseyryan/flutter_multi_formatter/pull/175, added australian phone mask fix
+## [2.13.7]
+- Merged https://github.com/caseyryan/flutter_multi_formatter/pull/165 /// Customization for country dropdown
+- Merged https://github.com/caseyryan/flutter_multi_formatter/pull/174 /// New mask for Finland
 ## [2.13.0]
 - Merged many fixes
 ## [2.12.8]
